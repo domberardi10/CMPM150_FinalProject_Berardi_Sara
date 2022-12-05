@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{feb88d6e-d060-41ec-8cf0-a85e2454f5ca}">
+		<property name="assetPath">
+			<value>378028__btalbot__fire-crackling.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>40.071836734693875</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e1ce8b10-c5fc-4677-beec-bcc8e93f9adf}</destination>
+		</relationship>
+	</object>
+</objects>

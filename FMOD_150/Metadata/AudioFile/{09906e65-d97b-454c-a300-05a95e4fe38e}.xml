@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{09906e65-d97b-454c-a300-05a95e4fe38e}">
+		<property name="assetPath">
+			<value>383721__deleted-user-7146007__breaking-a-pencil-twig-stick.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.75</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e1ce8b10-c5fc-4677-beec-bcc8e93f9adf}</destination>
+		</relationship>
+	</object>
+</objects>
