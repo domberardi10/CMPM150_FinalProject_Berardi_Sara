@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.11547023, g: 0.15516113, b: 0.26818094, a: 1}
+  m_IndirectSpecularColor: {r: 0.18649013, g: 0.25058636, b: 0.4331405, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11048,9 +11048,9 @@ GameObject:
   m_Component:
   - component: {fileID: 425016088}
   - component: {fileID: 425016087}
-  - component: {fileID: 425016086}
   - component: {fileID: 425016090}
   - component: {fileID: 425016089}
+  - component: {fileID: 425016091}
   m_Layer: 0
   m_Name: ThirdPersonCam
   m_TagString: Untagged
@@ -11058,14 +11058,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &425016086
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425016085}
-  m_Enabled: 0
 --- !u!20 &425016087
 Camera:
   m_ObjectHideFlags: 0
@@ -11171,6 +11163,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &425016091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 425016085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &427160602
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11315,6 +11320,41 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ca38d4485fce19f4aa0d3d7bdd8b6cf2, type: 3}
   m_PrefabInstance: {fileID: 433277746}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &433277748 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ca38d4485fce19f4aa0d3d7bdd8b6cf2, type: 3}
+  m_PrefabInstance: {fileID: 433277746}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &433277749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433277748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -240042588
+      Data2: 1341622256
+      Data3: 1905961400
+      Data4: 1120924333
+    Path: event:/sound8
+  Event: 
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &454970993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27330,8 +27370,8 @@ GameObject:
   m_Component:
   - component: {fileID: 934529320}
   - component: {fileID: 934529319}
-  - component: {fileID: 934529318}
   - component: {fileID: 934529321}
+  - component: {fileID: 934529322}
   m_Layer: 0
   m_Name: FullSceneCam
   m_TagString: Untagged
@@ -27339,14 +27379,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &934529318
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 934529317}
-  m_Enabled: 0
 --- !u!20 &934529319
 Camera:
   m_ObjectHideFlags: 0
@@ -27438,6 +27470,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &934529322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934529317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &938793215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27598,8 +27643,8 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: FirstPersonCam
   m_TagString: MainCamera
@@ -27607,14 +27652,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
@@ -27706,6 +27743,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1006255110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44022,9 +44072,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1631009025}
   - component: {fileID: 1631009024}
-  - component: {fileID: 1631009023}
   - component: {fileID: 1631009026}
   - component: {fileID: 1631009027}
+  - component: {fileID: 1631009028}
   m_Layer: 0
   m_Name: MovingCam
   m_TagString: Untagged
@@ -44032,14 +44082,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1631009023
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1631009021}
-  m_Enabled: 0
 --- !u!20 &1631009024
 Camera:
   m_ObjectHideFlags: 0
@@ -44145,6 +44187,19 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &1631009028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631009021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1001 &1727966843
 PrefabInstance:
   m_ObjectHideFlags: 0
