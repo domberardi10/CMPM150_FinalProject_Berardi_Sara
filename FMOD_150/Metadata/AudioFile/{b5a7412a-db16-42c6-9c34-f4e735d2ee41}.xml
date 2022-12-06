@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{b5a7412a-db16-42c6-9c34-f4e735d2ee41}">
+		<property name="assetPath">
+			<value>DeepBubble.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.04725</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e1ce8b10-c5fc-4677-beec-bcc8e93f9adf}</destination>
+		</relationship>
+	</object>
+</objects>

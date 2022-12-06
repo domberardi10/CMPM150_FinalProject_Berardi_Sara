@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33500
+--- !u!114 &-3301317547723506765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/LightBuzz
+  m_EditorClassIdentifier: 
+  Path: event:/LightBuzz
+  Guid:
+    Data1: 2143447099
+    Data2: 1164683472
+    Data3: 1941349778
+    Data4: 1987118079
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6800
 --- !u!114 &-1537951001345811662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -159,13 +186,126 @@ MonoBehaviour:
   - {fileID: -5963554310237237778}
   - {fileID: -578192432890775489}
   - {fileID: -1537951001345811662}
+  - {fileID: 2469094056650755311}
+  - {fileID: 3765549494735665317}
+  - {fileID: 2423384611918965870}
+  - {fileID: -3301317547723506765}
+  - {fileID: 896127283549123516}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9042866174602878215}
   StringsBanks:
   - {fileID: 8689719670665310402}
-  cacheTime: 638058754107434831
+  cacheTime: 638058902685159432
   cacheVersion: 131593
+--- !u!114 &896127283549123516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Coin
+  m_EditorClassIdentifier: 
+  Path: event:/Coin
+  Guid:
+    Data1: 1499117872
+    Data2: 1190517451
+    Data3: -1107542902
+    Data4: -895841873
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1000
+--- !u!114 &2423384611918965870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dolphins
+  m_EditorClassIdentifier: 
+  Path: event:/Dolphins
+  Guid:
+    Data1: -1099682943
+    Data2: 1162711185
+    Data3: 332876982
+    Data4: -409204706
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2400
+--- !u!114 &2469094056650755311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Bubbles
+  m_EditorClassIdentifier: 
+  Path: event:/Bubbles
+  Guid:
+    Data1: 1839922605
+    Data2: 1213959936
+    Data3: -1301014135
+    Data4: -1555979528
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1207
+--- !u!114 &3765549494735665317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Whales
+  m_EditorClassIdentifier: 
+  Path: event:/Whales
+  Guid:
+    Data1: 500395384
+    Data2: 1107863612
+    Data3: 1654723249
+    Data4: -2023708494
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 30000
 --- !u!114 &8488657829259982028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,10 +348,10 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638058754107434831
+  lastModified: 638058902685159432
   FileSizes:
   - Name: Desktop
-    Value: 1058
+    Value: 1278
   Exists: 1
 --- !u!114 &8873889465651291803
 MonoBehaviour:
@@ -282,8 +422,8 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638058754107404867
+  lastModified: 638058902685136320
   FileSizes:
   - Name: Desktop
-    Value: 3194144
+    Value: 4043328
   Exists: 1

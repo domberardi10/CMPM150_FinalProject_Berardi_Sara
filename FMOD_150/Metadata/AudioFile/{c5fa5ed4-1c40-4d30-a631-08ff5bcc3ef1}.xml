@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c5fa5ed4-1c40-4d30-a631-08ff5bcc3ef1}">
+		<property name="assetPath">
+			<value>mixkit-liquid-bubble-3000.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0472562358276645</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{e1ce8b10-c5fc-4677-beec-bcc8e93f9adf}</destination>
+		</relationship>
+	</object>
+</objects>
