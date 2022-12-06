@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5963554310237237778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Goodbyes
+  m_EditorClassIdentifier: 
+  Path: event:/Goodbyes
+  Guid:
+    Data1: -1847741101
+    Data2: 1172735159
+    Data3: -193006437
+    Data4: -651506219
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1160
 --- !u!114 &-5781035266380985688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33500
+--- !u!114 &-998394469278645619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Hellos
+  m_EditorClassIdentifier: 
+  Path: event:/Hellos
+  Guid:
+    Data1: -1135648923
+    Data2: 1192704650
+    Data3: 1286886561
+    Data4: -425653650
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 5
+  Length: 1200
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -47,12 +101,14 @@ MonoBehaviour:
   - {fileID: 8488657829259982028}
   - {fileID: 8981872355903827971}
   - {fileID: 8873889465651291803}
+  - {fileID: -998394469278645619}
+  - {fileID: -5963554310237237778}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9042866174602878215}
   StringsBanks:
   - {fileID: 8689719670665310402}
-  cacheTime: 638058673431854639
+  cacheTime: 638058717632459904
   cacheVersion: 131593
 --- !u!114 &8488657829259982028
 MonoBehaviour:
@@ -96,10 +152,10 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638058673431854639
+  lastModified: 638058717632459904
   FileSizes:
   - Name: Desktop
-    Value: 896
+    Value: 972
   Exists: 1
 --- !u!114 &8873889465651291803
 MonoBehaviour:
@@ -170,8 +226,8 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638058673431834694
+  lastModified: 638058717632439953
   FileSizes:
   - Name: Desktop
-    Value: 1091456
+    Value: 1155104
   Exists: 1
