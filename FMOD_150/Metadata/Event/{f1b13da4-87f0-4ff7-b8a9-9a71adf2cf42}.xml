@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{f1b13da4-87f0-4ff7-b8a9-9a71adf2cf42}">
 		<property name="name">
-			<value>sound8</value>
+			<value>SharkNear</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{63790ec7-df34-4ede-850e-041d34661d99}" />
 	<object class="GroupTrack" id="{4d29ab0b-9018-405e-9a01-d457d294ac6f}">
 		<relationship name="modules">
-			<destination>{f5197c9b-b521-400f-831b-b19342e78049}</destination>
+			<destination>{1d99cf7c-381c-4f42-b4f6-a6976794f740}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ad2034e9-a259-4d41-8b4d-0439267f247f}</destination>
@@ -68,7 +68,7 @@
 	</object>
 	<object class="Timeline" id="{2f60dc6f-d605-4ef8-962c-d4b716109b67}">
 		<relationship name="modules">
-			<destination>{f5197c9b-b521-400f-831b-b19342e78049}</destination>
+			<destination>{1d99cf7c-381c-4f42-b4f6-a6976794f740}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{f443a044-7a5a-44b9-8255-d875a571a89a}</destination>
@@ -94,12 +94,12 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{9e607f59-b42c-4857-b687-031ce55d8e81}" />
-	<object class="SingleSound" id="{f5197c9b-b521-400f-831b-b19342e78049}">
+	<object class="SingleSound" id="{1d99cf7c-381c-4f42-b4f6-a6976794f740}">
 		<property name="length">
-			<value>0.21277798722116109</value>
+			<value>16.109455782312924</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{ee8c5966-da58-4f4b-a488-914883758ea6}</destination>
+			<destination>{f5013618-32e6-4b9f-9fe6-fee2450ac593}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{ad2034e9-a259-4d41-8b4d-0439267f247f}">
@@ -121,7 +121,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>0.21277798722116109</value>
+			<value>16.109455782312924</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{2f60dc6f-d605-4ef8-962c-d4b716109b67}</destination>
@@ -141,10 +141,25 @@
 	<object class="MixerBusEffectChain" id="{3352eee7-d994-4d79-b51b-34612a659973}">
 		<relationship name="effects">
 			<destination>{dbdb7029-179c-4892-aaa0-bae834a871a4}</destination>
+			<destination>{53c7ec17-1d78-4b86-966d-001c4369d341}</destination>
+			<destination>{0ed1ca2a-3dc3-45cd-9626-109fab21bcca}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dc794c05-db0b-49ed-89f8-39f90d18d4ad}" />
 	<object class="MixerBusFader" id="{9b161f76-fad5-4b1e-90e1-339d43157038}" />
 	<object class="SpatialiserEffect" id="{4f0bbb09-82ae-4ac7-99cf-9783d8711d2f}" />
 	<object class="MixerBusFader" id="{dbdb7029-179c-4892-aaa0-bae834a871a4}" />
+	<object class="SFXReverbEffect" id="{53c7ec17-1d78-4b86-966d-001c4369d341}">
+		<property name="wetLevel">
+			<value>0</value>
+		</property>
+	</object>
+	<object class="ThreeEQEffect" id="{0ed1ca2a-3dc3-45cd-9626-109fab21bcca}">
+		<property name="lowGain">
+			<value>-7.5</value>
+		</property>
+		<property name="highGain">
+			<value>5</value>
+		</property>
+	</object>
 </objects>
