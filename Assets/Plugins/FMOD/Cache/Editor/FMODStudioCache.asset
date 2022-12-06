@@ -54,6 +54,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 33500
+--- !u!114 &-1537951001345811662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Waves
+  m_EditorClassIdentifier: 
+  Path: event:/Waves
+  Guid:
+    Data1: -780056165
+    Data2: 1204924163
+    Data3: -1107979335
+    Data4: -566313675
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 130837
 --- !u!114 &-998394469278645619
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81,6 +108,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 5
   Length: 1200
+--- !u!114 &-578192432890775489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Seagulls
+  m_EditorClassIdentifier: 
+  Path: event:/Seagulls
+  Guid:
+    Data1: 192753932
+    Data2: 1088349421
+    Data3: -751902554
+    Data4: 1220419244
+  Banks:
+  - {fileID: 9042866174602878215}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,12 +157,14 @@ MonoBehaviour:
   - {fileID: 8873889465651291803}
   - {fileID: -998394469278645619}
   - {fileID: -5963554310237237778}
+  - {fileID: -578192432890775489}
+  - {fileID: -1537951001345811662}
   EditorParameters: []
   MasterBanks:
   - {fileID: 9042866174602878215}
   StringsBanks:
   - {fileID: 8689719670665310402}
-  cacheTime: 638058717632459904
+  cacheTime: 638058754107434831
   cacheVersion: 131593
 --- !u!114 &8488657829259982028
 MonoBehaviour:
@@ -152,10 +208,10 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638058717632459904
+  lastModified: 638058754107434831
   FileSizes:
   - Name: Desktop
-    Value: 972
+    Value: 1058
   Exists: 1
 --- !u!114 &8873889465651291803
 MonoBehaviour:
@@ -226,8 +282,8 @@ MonoBehaviour:
   Path: FMOD_150/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638058717632439953
+  lastModified: 638058754107404867
   FileSizes:
   - Name: Desktop
-    Value: 1155104
+    Value: 3194144
   Exists: 1
