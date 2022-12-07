@@ -8,7 +8,9 @@ public class LeaveLandScene : MonoBehaviour
     
     private void OnTriggerEnter(Collider other)
     {
-        SceneManager.LoadScene("Underwater");
+        if (other.CompareTag("Player")){
+            SceneManager.LoadScene("Underwater");
+        }
     }
 
 }
